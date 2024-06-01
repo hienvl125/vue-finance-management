@@ -3,4 +3,5 @@
     TailwindCSS Button
   </button>
 
+  <button class="btn btn-neutral">DaisyUI Button</button>
 </template>
