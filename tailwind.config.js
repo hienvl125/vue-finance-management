@@ -11,5 +11,6 @@ export default {
   daisyui: {
     themes: ['light', 'dark'],
   },
+  safelist: ["alert-success", "alert-info", "alert-warning", "alert-error"],
 }
 

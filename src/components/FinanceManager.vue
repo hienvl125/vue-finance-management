@@ -1,0 +1,3 @@
+<template>
+  Finance Manager
+</template>
