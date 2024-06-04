@@ -37,8 +37,8 @@ function setAppAlert(alertType: "success" | "error" | "info" | "warning", alertM
         <span class="text-sm">{{ alert.alertMessage }}</span>
       </div>
     </div>
-    <div class="h-[calc(100vh-180px)]">
-      <FinanceManager v-if="session" />
+    <div class="h-auto">
+      <FinanceManager v-if="session" :session="session" />
       <div v-else class="w-full h-full flex justify-center items-center">
         <p class="text-3xl font-semibold">Login to track your finance now!</p>
       </div>
