@@ -12,7 +12,7 @@ const props = defineProps<{
 </script>
 <template>
   <div class="flex justify-between items-center">
-    <p v-if="props.session" class="text-sm"><span class="font-bold">Welcome</span>, {{ props.session.user.email }}</p>
+    <p v-if="props.session" class="text-lg"><span class="font-bold">Welcome</span>, {{ props.session.user.email }}</p>
     <LoginButtonWithModal v-else :setAppAlert="props.setAppAlert" />
     <ThemeSwitcher />
   </div>
